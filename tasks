@@ -1,0 +1,76 @@
+let x = Number(prompt('enter a number to check if it;s even or odd'));
+ if(x%2 == 0) console.log('even')
+else console.log('odd')
+
+/////////////////////////////////////
+problem 2
+fizz buzz
+
+ for (let index = 1; index < 100; index++) {
+     if(index %3 == 0 )console.log('fizz ' + index)
+    else if(index%5 == 0) console.log('buzz ' + index)
+//////////////////////////////////////////////
+string reversal
+ let mystring = prompt('please enter the string you want to be reversed')
+let reversed = ''
+
+ for (let index = mystring.length-1; index >= 0; index--) {
+     reversed += mystring.charAt(index)
+    
+ }
+ console.log(reversed)
+ ///////////////////////////////////////////////////
+let number1 = Number(prompt('enter number 1'))
+let number2 = Number(prompt('enter number 2'))
+let sum     = number1 + number2 
+if(number1 == 50 || number2 == 50 || sum == 50){
+    console.log('true')
+}
+ else console.log('false')
+ //////////////////////////////////
+let number1 = Number(prompt('enter number 1'))
+let number2 = Number(prompt('enter number 2'))
+
+if(number1 < 0) console.log(number1 + " is negative")
+else console.log(number1 + " is positive")
+ if(number2 < 0) console.log(number2 + " is negative")
+else console.log(number2 + " is postive")
+//////////////////////////////////////////
+let number1 = Number(prompt('enter number 1'))
+ let number2 = Number(prompt('enter number 2'))
+ let number3 = Number(prompt('enter number 3'))
+  let largest 
+ if(number1 > number2) largest = number1
+ else largest = number2
+    if(largest < number3)largest = number3 
+    
+console.log(largest + " is the largest between " + number1 + ' ' + number2 + ' ' + number3)
+
+///////////////////////////////////////////////////////////////
+let sum = 0
+ for (let index = 1; index <= 10; index++) {
+     sum += index
+ }
+ console.log('sum of the numbers from 1 to 10 is '+sum)
+ /////////////////////////////////////
+ 
+ 
+
+
+
+problem 10
+ let starcoutner = 1
+ let star='*'
+ for (let index = 0; index < 5; index++) {
+     for (let index = 0; index < starcoutner; index++) {
+         star+='*'
+     }
+     starcoutner++
+     console.log(star)
+ }
+ //////////////////////////////////
+ 
+ let number1 = Number(prompt('enter number 1 '))
+ let number2 = Number(prompt('enter number 2 '))
+ console.log('sum = '+ (number1+number2))
+

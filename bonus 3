@@ -1,0 +1,17 @@
+var a = {name:'lol', age : 13},
+    b = {name:'simon',age : 35},
+    c = {name:'koko',   age : 45},
+    d = {name:'bobby',  age : 12},
+    e = {name:'bob', age : 26},
+    f = {name:'nelly', age : 13}
+var arrofob = [a,b,c,d,e,f]
+
+function search(string){
+    for (let i = 0; i < arrofob.length; i++) {
+        if(arrofob[i].name === string){
+            console.log(`${string} found at index ${i}`)
+        }
+    
+    }
+}   
+search('bob')

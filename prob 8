@@ -1,0 +1,9 @@
+let random = {
+    name : 'bob',
+    lname: 'lemon',
+    age : 15
+}
+
+arr = Object.entries(random)
+
+console.log(arr)
